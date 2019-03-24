@@ -219,6 +219,7 @@ p {
        flex-flow: column wrap;
        margin-left: 27px;
    }
+}
 
    @media only screen and (max-width: 768px) {
     header h1 {
@@ -226,5 +227,27 @@ p {
         padding-top: 15px;
         margin-left: 4px;
         width: fit-content;
+    }
+
+    .Form {
+        justify-content: center;
+    }
+
+    .Porto, .Form, .aboutme {
+        margin: 5px 3px;
+        width: 550px;
+    }
+
+    #contact { 
+        margin-right: 10px;
+    }
+
+    .Porto h2 {
+        width: 550px;
+    }
+
+    .aboutme img {
+        height: 360px;
+        width: 270px;
     }
 }
