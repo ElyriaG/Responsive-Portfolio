@@ -173,6 +173,85 @@ p {
     margin: 20px;
 }
 
+@media only screen and (max-width: 980px) {
+    header h1 {
+        font-size: 25px;
+        padding-top: 15px;
+        margin-left: 4px;
+        width: fit-content;
+    }
+    .Porto, .Form, .aboutme {
+        margin: 5px 3px;
+        width: 650px;
+    }
+
+    .aboutme img {
+        height: 452px;
+        width: 340px;
+    }
+
+    .images img {
+        float: none;
+        width: 240px;
+        justify-content: 
+    }
+
+    .images {
+        float: left;
+    }
+    #one, #two, #three, #four, #five, #six {
+        margin-left: 30px;
+        float: left;
+    }
+
+    .Porto h2 {
+        width: 640px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 25px;
+        padding-top: 15px;
+        margin-left: 4px;
+        width: fit-content;
+    }
+
+    .Form {
+        justify-content: center;
+        width: 400px;   
+    }
+
+    .Porto, .Form, .aboutme {
+        margin: 5px 3px;
+        width: 550px;
+    }
+
+    .images img {
+        float: none;
+        width: 300px;
+    }
+
+    #one, #two, #three, #four, #five, #six {
+        margin-left: 100px;
+    }
+    
+    .images { 
+        width: 550px;
+    }
+    #contact { 
+        margin-right: 10px;
+    }
+
+    .Porto h2 {
+        width: 550px;
+    }
+
+    .aboutme img {
+        height: 360px;
+        width: 270px;
+    }
+
 @media only screen and (max-width: 640px) {
    header h1 {
        font-size: 20px;
@@ -202,6 +281,7 @@ p {
 
    .aboutme h2, .Porto h2 {
        font-size: 50px;
+       width: 390px;
    }
 
    .aboutme img {
@@ -221,33 +301,5 @@ p {
    }
 }
 
-   @media only screen and (max-width: 768px) {
-    header h1 {
-        font-size: 25px;
-        padding-top: 15px;
-        margin-left: 4px;
-        width: fit-content;
-    }
-
-    .Form {
-        justify-content: center;
-    }
-
-    .Porto, .Form, .aboutme {
-        margin: 5px 3px;
-        width: 550px;
-    }
-
-    #contact { 
-        margin-right: 10px;
-    }
-
-    .Porto h2 {
-        width: 550px;
-    }
-
-    .aboutme img {
-        height: 360px;
-        width: 270px;
-    }
+  
 }
